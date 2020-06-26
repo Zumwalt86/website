@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daniele.Cannizzaro/about.me</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="Style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">Daniele Cannizzaro</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+
+		<ul class="header__menu animate">
+
+			<li class="header__menu__item"><a  class="btn"href="Profile.html">Profile</a></li>
+			<li class="header__menu__item"><a href="About.html">About</a></li>
+			<li class="header__menu__item"><a href="Experience.html">Experience </a></li>
+
+		</ul>
+
+	</header>
+
+	<div class="profile">
+
+			<div class="profile__details">
+
+				<img class= "image_profile"src="https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/c0.0.166.167a/102768221_3105055839533417_6864720070910125825_n.jpg?_nc_cat=105&_nc_sid=da31f3&_nc_ohc=Vh_3eWcAMgAAX-ktGqb&_nc_ht=scontent-mxp1-1.xx&oh=1b03dc1b08973879c4f27b5369988081&oe=5F0B008C" alt="">
+
+				<h1>Dettagli</h1>
+				<h3>Nome</h3>
+				<p>Daniele Cannizzaro</p>
+				<h3>Età</h3>
+				<p>34 anni</p>
+				<h3>Ubicazione</h3>
+				<p>Italia, Toscana, Firenze(Rufina)</p>
+
+			</div>
+
+			<div class="profile__text">
+				<h2>Su di me</h2>
+
+				<p>Sono un operaio con oltre 15 anni di esperienza. </br>
+				attualmente lavoro in un'azienda del settore gomma come pressista. </br>
+				L'azienda è leader nel suo settore, che va dal calzaturiero, passando dal ortopedico,edile,impiantistica, oggettistica ecc. </br>
+				Amo l'ordine e precisione che senz'altro sono sinonimo di qualità. </br>
+				Inoltre mi piace lavorare in gruppo,poichè se circondati da persone competenti, si impara molto di più e velocemente.
+				</p>
+
+			</div>
+
+
+	</div>
+
+
+
+	<footer class="footer ">
+		<p>Copyright - 2020 Daniele Cannizzaro</p>
+		<img class="icon"src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+		<a class=""href="https://www.instagram.com/danyele8684/">seguimi su instagram</a>
+		<img class="icon"src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+		<a class=""href="https://www.facebook.com/danieleebarbara.cannizzaro">seguimi su facebook</a>
+	</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+
+</script>
+
+
+</body>
+</html>

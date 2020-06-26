@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daniele.Cannizzaro/about.me</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="Style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+
+		<a href="index.html" class="header__logo">Daniele Cannizzaro</a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+
+		<ul class="header__menu animate">
+
+			<li class="header__menu__item"><a href="Profile.html">Profile</a></li>
+			<li class="header__menu__item"><a class="btn" href="About.html">About</a></li>
+			<li class="header__menu__item"><a href="Experience.html"> Experience</a></li>
+		</ul>
+
+	</header>
+
+	<section class="cover-about">
+		<div class="cover__filter"></div>
+
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1 class="animated bounceInDown">About me</h1>
+				<h2 class="animated bounceInDown">Stay tuned</h2>
+				<span class="animated bounce"></span>
+
+
+
+			</div>
+		</div>
+
+	</section>
+
+
+
+	<section class="cards clearfix">
+
+		<div class="card">
+			<img class="card__image"src="https://a.mytrend.it/prp/2018/05/741339/o.465163.jpg" alt="city">
+			<div class="card__copy">
+				<h3>Firenze</h3>
+				<p>bhe che dire!!!.. Firenze si presenta da sola, città dell'arte per eccellenza. </br>
+					Sono una persona a cui piace il rumore sordo della quiete della natura... ma ogni tanto una bella giratina nelle vie del centro storico ci sta bene.
+				</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<img class="card__image"src="https://www.lamiabellatoscana.it/wp-content/uploads/2017/04/Secchieta-2.jpg" alt="Nature">
+			<div class="card__copy">
+				<h3>Vallombrosa</h3>
+				<p>Posto spettacolare nel comune di Reggello, dove staccare la spina e rigenerarsi circondati da una fitta foresta.</br>
+					se non mi prende il cellulare è molto probabile che mi troviate qui con la mia famiglia!!! </p>
+				</div>
+			</div>
+
+			<div class="card">
+				<img class="card__image"src="https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/c0.166.1511.1511a/s851x315/102596771_3103749619664039_3226518007446815540_o.jpg?_nc_cat=100&_nc_sid=da31f3&_nc_ohc=_FL5SS26fZ0AX_IoAbM&_nc_ht=scontent-mxp1-1.xx&oh=432b1ae0b938d1fd2491cb0e462a0a1e&oe=5F02ABCF" alt="moto">
+				<div class="card__copy">
+					<h3>passione moto</h3>
+					<p>Mi ritengo una persona con vizi "sani", questa è una di queste.</br>
+						di tanto in tanto partire in sella alla mia moto è quello che mi ci vuole, non c'è niente di più bello che percorrere le strade del chianti in una bella giornata di sole. </p>
+					</div>
+				</div>
+	</section>
+
+	<section class="banner clearfix">
+
+		<div class="banner__image"></div>
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<h3>My family</h3>
+				<h4>Conclusioni</h4>
+				<hr>
+				<p>
+					 Se sono quello che sono in parte lo devo anche a lei,mia moglie,la mia fonte di forza e ispirazione.</br>
+					 Colei che mi permette di essere me stesso nel bene e nel male.</br>
+					 Non sono una persona capace di stare con le mani in mano, e spesso riesco sempre a trovare qualcosa da fare, daltronde il tempo passa velece e non sta certo ad aspettarci, tanto vale cercare di non sprecarlo.</br>
+					 Prendiamo ad esempio questo periodo, dove il Covid-19 ci ha costretti ad una quarantena che MAI ci aspettavamo,ma è successo, mettendo in ginocchio un Paese intero.</br>
+					 Tante persone hanno reagito a questa crisi come potevano e in modi inaspettati, io dal mio canto, ho cercato di non buttare via il tempo che la quarantena ci ha dato, studiando progrannazione, arricchendo così il mio bagaglio culturale.</br>
+				</p>
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer clearfix">
+		<p>Copyright - 2020 Daniele Cannizzaro</p>
+		<img class="icon"src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+		<a class=""href="https://www.instagram.com/danyele8684/">seguimi su instagram</a>
+		<img class="icon"src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+		<a class=""href="https://www.facebook.com/danieleebarbara.cannizzaro">seguimi su facebook</a>
+	</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>

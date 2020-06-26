@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Daniele.Cannizzaro/about.me</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo">Daniele Cannizzaro</a>
+		<a href="" class="header__icon-bar-1">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+
+	</header>
+
+
+	<div id="carousel" class="carousel slide" data-ride="carousel">
+
+	  <div class="carousel-inner" role="listbox">
+
+	    <div class="item active" style="background-image: url(https://selasti.it/img/cms/mascherine-holly.jpg);">
+				<div class="cover__filter"></div>
+
+				<div class="carousel-caption animated fadeInUp">
+	        <h2>Selasti spa</h2>
+					<h3>13 Settembre 2018 in corso</h3>
+					<p>addetto alla pressa, stampaggio lastre in E.V.A. </br>
+						Selasti spa è leader nella produzione di lastre in microporosa a base E.V.A. (polimero EtilVinilAcetato) e gomma espansa. <br/>
+						Lastre destinate in particolare al settore calzaturiero e ortopedico, ma che hanno molteplici applicazioni anche come protezioni, pavimenti e rivestimenti, didattica e oggettistica. <br/>
+						Nel periodo di quarantena l'azienda ha contribuito a fornire le lastre in E.V.A. per la realizzazione di mascherine protettive.
+					</p>
+
+					<img class="icon"src="https://img.icons8.com/fluent/48/000000/internet"/>
+					<a class="Selasti"href="https://selasti.it/">selasti spa</a>
+
+					<img class="icon"src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+					<a class="Selasti"href="https://www.facebook.com/hollylamascherinaprotettiva/">hollylamascherinaprotettiva</a>
+
+
+	      </div>
+	    </div>
+
+	    <div class="item" style="background-image: url(https://www.postespedizionisdf.com/wp-content/uploads/2017/05/posta2.png);">
+				<div class="cover__filter"></div>
+
+				<div class="carousel-caption animated fadeInUp">
+					<h2>Poste italiane spa</h2>
+					<h3>2017-2018</h3>
+					<p>Porta lettere presso poste italiane spa.</p>
+	      </div>
+	    </div>
+			<div class="item" style="background-image: url(https://resl.ch/wp-content/flagallery/giranti/6.jpg);">
+				<div class="cover__filter"></div>
+
+	      <div class="carousel-caption animated fadeInUp">
+					<h2>OMA spa</h2>
+					<h3>2011-2013</h3>
+					<p>Addetto alla lucidatura di Giranti per turbocompressori, da grezzo fino alla cromatura delle stesse. </br>
+						 lavoro per conto di Nuovo pignone di Firenze.</p>
+
+	      </div>
+	    </div>
+
+			<div class="item" style="background-image: url(https://www.ristrutturazioneprezzi.it/wp-content/uploads/2018/08/impresa-edile-bresso.jpg);">
+				<div class="cover__filter"></div>
+
+	      <div class="carousel-caption animated fadeInUp">
+					<h2>R.A.G. costruzioni S.r.l</h2>
+					<h3>2003-2011</h3>
+					<p>da aprendista fino a muratore esperto, oltre che ad una buona conoscenza di carpenteria, imbiancatura e decorazioni. </br>
+						 autista mezzi e manovratore di gru a torre e muletti. </br>
+						 attestato montatore ponteggi, muletto e piattaforma aerea.
+
+
+					</p>
+	      </div>
+	    </div>
+
+		</div>
+
+
+	  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+
+	</div>
+
+
+
+	<footer class="footer ">
+		<p>Copyright - 2020 Daniele Cannizzaro</p>
+		<img class="icon"src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+		<a class=""href="https://www.instagram.com/danyele8684/">seguimi su instagram</a>
+		<img class="icon"src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+		<a class=""href="https://www.facebook.com/danieleebarbara.cannizzaro">seguimi su facebook</a>
+	</footer>
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
